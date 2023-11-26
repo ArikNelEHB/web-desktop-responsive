@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 1 WEB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Arik Nel</div>
+    <div>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="experience.html">Experience</a></li>
+</ul>
+</div>
+</nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Arik Nel</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+                 <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                 <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+            </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section_pic-container">
+            <image src="image/profile_pic.png" alt="Arik Nel Profiel Foto">
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Arik Nel</h1>
+            <p class="section__text__p2">student Multimedia<br> And Creative<br> Technologies.</p>
+            <div class="btn-contaianer">
+                <button class="btn btn-color-2" onclick="window.open('./image/profile.png')">
+View CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact me
+                                    </button>
+            </div>
+            <div id="socials-container">
+                <img src="image/ig_logo_1.png" alt="instagram" class="icon" onclick="location.href='https://www.instagram.com/ariknel/'">
+                <img src="image/github_logo_name.png" alt="github" class="icon" onclick="location.href='https://github.com/ArikNelEHB'">
+            </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="image/profile_pic.png" alt="profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <img src="image/icon_user.png" alt="experience icon" class="icon"/>
+                        <h3>Little about myself</h3>
+                        <p>I have 4 pets, 3 cats and 1 dog..<br>Okay no, really.</p>
+                        <div class="text-container">
+                            <p>Let's do a short introduction. I am interested in many fields, i like techology for example.
+                                I find the operation behind many of the devices we use in everyday life fascinating,
+                                thus i will almost certainly want to know more about the working principle.
+                                Now this will to know the working behind stuff isn't only with technology, it could be anything.
+                                I love building stuff aswell, with my hands. Ranging from wood to metal and analog to digital. I am a laid back person deep down. I like all categories of music, whatever suits the vibe.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+    </div>
+</div>
+      </section>
+      <script src="script.js"></script>
+    </header>
+</body>
+</html>
+
+
