@@ -98,5 +98,6 @@
 	}
 	.section__pic-container {
 		justify-content: center;
+		width: auto;
 	}
 }

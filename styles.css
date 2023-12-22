@@ -143,14 +143,6 @@ section {
 	width: 400px;
 	margin: auto o;
 	scale: 50%;
-	border-radius: 10px;
-}
-
-.section__pic-container img {
-	border: 1px solid black;
-}
-.section_pic-container img {
-	border: 1px solid black;
 }
 
 .section__pic-container .section_text {
