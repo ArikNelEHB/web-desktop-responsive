@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROJECT 1 WEB</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="burger.css">
-</head>
-<body>
-<nav id="desktop-nav">
-    <div class="logo">Arik Nel</div>
-    <div>
-<ul class="nav-links">
-<li><a href="index.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="experience.html">Experience</a></li>
-</ul>
-</div>
-</nav>
-      <nav id="hamburger-nav">
-        <div class="logo">Arik Nel</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="index.html" onclick="toggleMenu()">About</a></li>
-                 <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
-                 <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
-            </div>
-        </div>
-      </nav>
-      <div class="my-projects">
-        <h1>My</h1>
-        <h1 class="gray">personal</h1>
-        <h1>projects.</h1>
-      </div>
-      <div class="gallery_container">
-<img src="image/pet_feeder_inventor.png">
-<div class="details-container">
-    <h3>Automatic Pet Feeder</h3>
-    <p>Adjustable pet feeder<br>Adjust settings via WiFi<br>
-    "work in progress"</p>
-    <p>This is a open-source pet feeder that everyone will be able to build<br>using 3d printing and basic electronic knowledge.<br>(soldering skills required)<br>
-    source code and files can be found on my GitHub</p>
-    <h3>About</h3>
-    <p>This pet feeder is fully 3d printed, no glueing required.<br>
-    It has a food dispenser and a water dispenser, bove can be cleaned<br>easily because i have made it easy to disassemble.<br>This project runs on a esp32, the user can connect to the generated network<br>of the pet feeder and can then change the food/water dispenser interval. <br>The pet feeder has a manual mode aswell, interactable via a LCD screen<br>and a rotary encoder.</p>
-    <div class="btn-contaianer">
-        <button class="btn btn-color-1" onclick="location.href='projects.html'">
-            Learn more
-                            </button>
-    </div>
-</div>
-      </div>
-      <div class="gallery_container2">
-        <img src="image/ble_speaker.png">
-        <div class="details-container">
-            <h3>Adjustable EQ Bluetooth Boombox</h3>
-            <p>16-bit Bluetooth audio<br>Adjustable Audio DSP<br>OLED Screen Navigation<br>
-            WiFi radio<br>"work in progress"</p>
-            <h3>About</h3>
-            <p>The boombox its shell volume has been calculated using WinISP<br>
-            thus the dimensions are perfect to achieve the best sound possible.<br>It's built using 12mm thick MDF wood.<br>It has a built in Audio DSP (used for audio processing) that can be interacted with<br>using a web application where the user can select their desired audio profile.<br>
-        The boombox can also be configured using the built in buttons and OLED Screen.<br>The power output at peak is 120W max.<br>
-    The battery pack inside is capable of providing 2 hours of playtime at peak power.<br>(Custom 27V litium-ion battery pack with protection features.)</p>
-            <div class="btn-contaianer">
-                <button class="btn btn-color-1" onclick="window.open('https://www.youtube.com/watch?v=awKqiN6pbCQ')">
-                    Learn more
-                                    </button>
-            </div>
-        </div>
-              </div>
-      
-      <script src="script.js"></script>
-    </body>
-      </html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PROJECT 1 WEB</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="burger.css" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Arik Nel</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="index.html">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="experience.html">Experience</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Arik Nel</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="index.html" onclick="toggleMenu()">About</a></li>
+					<li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+					<li>
+						<a href="experience.html" onclick="toggleMenu()">Experience</a>
+					</li>
+				</div>
+			</div>
+		</nav>
+		<div class="my-projects">
+			<h1>My</h1>
+			<h1 class="gray">personal</h1>
+			<h1>projects.</h1>
+		</div>
+		<div class="gallery_container">
+			<img src="image/pet_feeder_inventor.png" />
+			<div class="details-container">
+				<h3>Automatic Pet Feeder</h3>
+				<p>
+					Adjustable pet feeder<br />Adjust settings via WiFi<br />
+					"work in progress"
+				</p>
+				<p>
+					This is a open-source pet feeder that everyone will be able to
+					build<br />using 3d printing and basic electronic knowledge.<br />(soldering
+					skills required)<br />
+					source code and files can be found on my GitHub
+				</p>
+				<h3>About</h3>
+				<p>
+					This pet feeder is fully 3d printed, no glueing required.<br />
+					It has a food dispenser and a water dispenser, bove can be cleaned<br />easily
+					because i have made it easy to disassemble.<br />This project runs on
+					a esp32, the user can connect to the generated network<br />of the pet
+					feeder and can then change the food/water dispenser interval.
+					<br />The pet feeder has a manual mode aswell, interactable via a LCD
+					screen<br />and a rotary encoder.
+				</p>
+				<div class="btn-contaianer">
+					<button
+						class="btn btn-color-1"
+						onclick="location.href='projects.html'"
+					>
+						Learn more
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="gallery_container2">
+			<img src="image/ble_speaker.png" />
+			<div class="details-container">
+				<h3>Adjustable EQ Bluetooth Boombox</h3>
+				<p>
+					16-bit Bluetooth audio<br />Adjustable Audio DSP<br />OLED Screen
+					Navigation<br />
+					WiFi radio<br />"work in progress"
+				</p>
+				<h3>About</h3>
+				<p>
+					The boombox its shell volume has been calculated using WinISP<br />
+					thus the dimensions are perfect to achieve the best sound possible.<br />It's
+					built using 12mm thick MDF wood.<br />It has a built in Audio DSP
+					(used for audio processing) that can be interacted with<br />using a
+					web application where the user can select their desired audio
+					profile.<br />
+					The boombox can also be configured using the built in buttons and OLED
+					Screen.<br />The power output at peak is 120W max.<br />
+					The battery pack inside is capable of providing 2 hours of playtime at
+					peak power.<br />(Custom 27V litium-ion battery pack with protection
+					features.)
+				</p>
+				<div class="btn-container">
+					<button
+						class="btn btn-color-1"
+						onclick="window.open('https://www.youtube.com/watch?v=awKqiN6pbCQ')"
+					>
+						Learn more
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
